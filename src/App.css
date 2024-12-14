@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+.error {
+  color: red;
+  font-size: 0.8em;
+}
+
+body {    /*estilos de la imagen de fondo */
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-lineas-dinamicas-estilo-papel_23-2149008629.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1716163200&semt=ais_user);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.nav-link {   /* estilos para la barra de navegacion y pestañas*/
+  color: #5d0df1;
+  font-size: 20px;
+}
+#assets .form-control, #assets label {  /*para los form*/
+  color: #000200;
+}
+h3{      /*para los h3*/
+  color:#f10a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {   /*para los contenedores*/
+  background-color: #ffffffc0;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(250, 14, 14, 0.952);
+  border-radius: 5px;
+  width: 1000px;
+}
+.form-group {
+  margin-bottom: 5px;
+  width: 500px;
+}
+.maintenance-form{ /*para el form de mantenimiento*/
+  background-color: #d41e1e00;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(202, 7, 7, 0);
+  border-radius: 5px;
+  width: 800;
+  margin: 0 auto;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.asset-form {     /*para los formularios de registro*/
+  background-color: #d41e1e00;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(202, 7, 7, 0);
+  border-radius: 5px;
+  width: 800px;
+  margin: 0 auto;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.task-form {     /*para los formularios de mantenimiento*/
+  background-color: #d41e1e00;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(202, 7, 7, 0);
+  border-radius: 5px;
+  width: 800px;
+  margin: 0 auto;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+button {   /*Para el boton*/
+  width: 16%;
+  padding: 8px;
+  background-color: #077ff8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b30000;
+}
+.btn, .center-button {   /*Para el boton secundario*/
+  display: block;
+  margin: 0 auto;
+  width: 25%
+}
+.btn:hover {
+  background-color: #b30000;
+}

@@ -1,0 +1,24 @@
+.container {   /*para los contenedores*/
+    background-color: #ffffffc0;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(250, 14, 14, 0.952);
+    border-radius: 5px;
+    width: 1000px;
+    margin: 0 auto;  /* Para centrar el contenedor en la página */
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+    width: 500px;
+    margin: 0 auto;  /* Para centrar los campos dentro del contenedor */
+  }
+  
+  .login-form {
+    max-width: 500px;  /* Para ajustar el formulario al mismo ancho que .form-group */
+    margin: 0 auto;    /* Para centrar el formulario dentro del contenedor */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
